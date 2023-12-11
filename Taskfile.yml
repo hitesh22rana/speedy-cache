@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build -o bin/speedy-cache .
+  run:
+    cmds:
+      - go run main.go
